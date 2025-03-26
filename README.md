@@ -27,4 +27,4 @@
 
 - 电话：#############
 - 邮箱：jingcaiweiyulu@gmail.com
-- 地址：江阴市长江镇南苑小区"# yanjing7.github.io"  
+- 地址：江阴市长泾镇南苑小区"# yanjing7.github.io"  
