@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeBloom - 联系我们</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>CakeBloom</h1>
+            <p>甜蜜绽放，幸福滋味</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="products.html">蛋糕系列</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="contact.html" class="active">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>联系我们</h2>
+            <p>期待与您沟通，为您提供甜蜜服务</p>
+        </div>
+    </section>
+
+    <section class="contact-container">
+        <div class="contact-info">
+            <h3>联系方式</h3>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info-content">
+                    <h4>地址</h4>
+                    <p>江阴市长泾镇南苑小区</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <div class="info-content">
+                    <h4>电话</h4>
+                    <p>18912459670</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div class="info-content">
+                    <h4>邮箱</h4>
+                    <p>jingcaiweiyulu@gmail.com</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-clock"></i>
+                <div class="info-content">
+                    <h4>营业时间</h4>
+                    <p>周一至周五：9:00 - 21:00</p>
+                    <p>周六至周日：10:00 - 22:00</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>发送信息</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">您的姓名</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">电子邮箱</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">联系电话</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">主题</label>
+                    <select id="subject" name="subject">
+                        <option value="order">蛋糕订购</option>
+                        <option value="custom">定制咨询</option>
+                        <option value="feedback">意见反馈</option>
+                        <option value="other">其他</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">您的信息</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">发送信息</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <h3>我们的位置</h3>
+        <div class="map-container">
+            <!-- 这里可以嵌入地图，例如百度地图或高德地图 -->
+            <div class="map-placeholder">
+                <i class="fas fa-map-marked-alt"></i>
+                <p>江阴市长江镇南苑小区</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>CakeBloom 蛋糕店</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 地址：江阴市长江镇南苑小区</p>
+                <p><i class="fas fa-phone"></i> 电话：18912459670</p>
+                <p><i class="fas fa-envelope"></i> 邮箱：jingcaiweiyulu@gmail.com</p>
+            </div>
+            <div class="footer-hours">
+                <h3>营业时间</h3>
+                <p>周一至周五：9:00 - 21:00</p>
+                <p>周六至周日：10:00 - 22:00</p>
+            </div>
+            <div class="footer-social">
+                <h3>关注我们</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-weixin"></i></a>
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 CakeBloom 蛋糕店. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
